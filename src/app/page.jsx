@@ -2,7 +2,6 @@
 import Image from "next/image";
 import MoonImg from "./assets/main/moon.png";
 import BalanceDisplayMain from "./components/main/balanceDisplayMain";
-import { useState } from "react";
 import Game from "./components/main/game";
 import { useAuth } from "./context/UserContext";
 export default function Home() {
